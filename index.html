@@ -7,20 +7,22 @@
 </head>
 <body>
     <h1>Přihláška do Geometry Dash Týmu</h1>
-    <form action="https://formspree.io/f/vaše-adresa" method="POST">
-        <label for="name">Jméno:</label><br>
-        <input type="text" id="name" name="name" required><br><br>
-        
-        <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email" required><br><br>
-
-        <input type="submit" value="Přihlásit se">
+    <form action="https://formspree.io/f/manwrdlq" method="POST">
+        <label>
+            Tvé jméno:
+            <input type="text" name="name" required>
+        </label><br><br>
+        <label>
+            Tvůj email:
+            <input type="email" name="email" required>
+        </label><br><br>
+        <button type="submit">Přihlásit se</button>
     </form>
 
     <script>
         document.querySelector("form").addEventListener("submit", function(e) {
             e.preventDefault();
-            alert("Děkujeme za přihlášení! Moje jméno v Geometry Dash je NasupeHardDash1 a email na mě je oliverpirner@seznam.cz.");
+            alert("Děkujeme za přihlášení! Tvoje jméno v Geometry Dash je NasupeHardDash1 a kontakt na mě je oliverpirner@seznam.cz.");
             this.submit();
         });
     </script>
